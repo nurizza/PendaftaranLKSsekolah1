@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
                                           if (NS.isChecked()) hasil1 += NS.getText() + "\n";
                                           if (SA.isChecked()) hasil1 += SA.getText() + "\n";
 
-                                          ethasil.setText(nama + " kelas " + spKelas.getSelectedItem().toString() + " jenis kelamin " + hasil + hasil1);
+                                          ethasil.setText(nama + " kelas " + spKelas.getSelectedItem().toString() + " jenis kelamin " + hasil + " " + hasil1);
                                       }
                                   }
         );
